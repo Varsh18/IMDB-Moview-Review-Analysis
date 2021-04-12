@@ -1,6 +1,10 @@
 # IMDB Movie Review Analysis
 
-In this project, I have used IMDB Movie review dataset. This dataset will be used for train a model using 1) an Automated ML 2) Hyperdrive. After that ,we will compare their performance and deploy the best model. Finally , deployed model is consumed  a deployed service via an HTTP API using model endpoint. An HTTP API is a URL that is exposed over the network so that interaction with a trained model can happen via HTTP requests.
+In this project, I have used IMDB Movie review dataset. This dataset will be used for training the model using 
+1) an Automated ML 
+2) Hyperdrive.
+
+After that ,we will compare their performance and deploy the best model. Finally , deployed model is consumed  a deployed service via an HTTP API using model endpoint. An HTTP API is a URL that is exposed over the network so that interaction with a trained model can happen via HTTP requests.
 
 ## Project Set Up and Installation
 *OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
