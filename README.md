@@ -63,8 +63,8 @@ Below are the steps used in preprocessing the text data.
 ### Access
 The dataset is uploaded to the Github repository and accessed in the Jupyter notebook using TabularDatasetFactory class
    
-	# from azureml.data.dataset_factory import TabularDatasetFactory
-	  ds=TabularDatasetFactory.from_delimited_files(path="https://raw.githubusercontent.com/Varsh18/IMDB-Moview-Review-Analysis/master/IMDB-Dataset.csv")
+	from azureml.data.dataset_factory import TabularDatasetFactory
+	ds=TabularDatasetFactory.from_delimited_files(path="https://raw.githubusercontent.com/Varsh18/IMDB-Moview-Review-Analysis/master/IMDB-Dataset.csv")
 
 ## Automated ML
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
