@@ -107,6 +107,16 @@ Automated ML Settings:
 | enable_stack_ensemble | Whether to enable/disable StackEnsemble iteration.      |    False |
 
 
+Automated ML configuration:
+
+| Name        | Description           | Value  |
+| ------------- |:-------------:| -----:|
+|debug_log     | The log file to write debug information to. | automl_errors.log |
+| compute_target    | compute target which is used to run Automated ML experiments      |   compute_cluster_name |
+| training_data | The training data to be used within the experiment |    train_data |
+|label_column_name     | The name of the label column | sentiment |
+| blocked_models    | A list of algorithms to ignore for an experiment.      |   'LightGBM', 'XGBoostClassifier' |
+
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
 
