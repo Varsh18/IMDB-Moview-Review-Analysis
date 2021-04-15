@@ -67,8 +67,30 @@ The dataset is uploaded to the Github repository and accessed in the Jupyter not
 	ds=TabularDatasetFactory.from_delimited_files(path="https://raw.githubusercontent.com/Varsh18/IMDB-Moview-Review-Analysis/master/IMDB-Dataset.csv")
 
 ## Automated ML
-*TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
+AutoML involves the application of DevOps principles to machine learning, in order to automate all aspects of the process. For example, we can automate feature engineering, hyperparameter selection, model training, and tuning. With AutoML, we can create hundreds of models a day,get better model accuracy
+deploy models faster.
 
+	automl_settings = {
+	    "experiment_timeout_minutes": 20,
+	    "primary_metric": 'accuracy',
+	    "max_concurrent_iterations": max_nodes, 
+	    "max_cores_per_iteration": -1,
+	    "enable_dnn": True,
+	    "enable_early_stopping": True,
+	    "validation_size": 0.3,
+	    "verbosity": logging.INFO,
+	    "enable_voting_ensemble": False,
+	    "enable_stack_ensemble": False,
+	}
+
+	automl_config = AutoMLConfig(task = 'classification',
+                             debug_log = 'automl_errors.log',
+                             compute_target=compute_cluster_name,
+                             training_data=train_data,
+                             label_column_name='sentiment',
+                             blocked_models = ['LightGBM', 'XGBoostClassifier'],
+                             **automl_settings
+                            )
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
 
