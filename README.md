@@ -46,7 +46,19 @@ After successful completion of project execution , webservice and the compute cl
 The dataset used in this project is [IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) from [kaggle](https://www.kaggle.com/).This is a dataset for binary sentiment classification containing substantially more data than previous benchmark datasets.This dataset contains 50k movie reviews which 49582 unique values. The attributes in the dataset are review and sentiment. The attribute review contains the user review and sentiment attribute contains two values (positive , negative) corresponding to the user review.
 
 ### Task
-*TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
+The main idea of this project is analyse the binary sentiments for the IMDB Movie review. The features in the dataset are review column which has the user reviews.Text preprocesing is challenging one. Based on the goal of the project, we need to remove the unwanted information from the data.Machine Learning can produce more accurate results when we process the text data properly.
+Below are the steps used in preprocessing the text data.
+
+Remove HTML tags
+Remove extra whitespaces
+Convert accented characters to ASCII characters
+Expand contractions
+Remove special characters
+Lowercase all texts
+Convert number words to numeric form
+Remove numbers
+Remove stopwords
+Lemmatization
 
 ### Access
 *TODO*: Explain how you are accessing the data in your workspace.
