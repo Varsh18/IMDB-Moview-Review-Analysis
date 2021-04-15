@@ -91,6 +91,22 @@ deploy models faster.
                              blocked_models = ['LightGBM', 'XGBoostClassifier'],
                              **automl_settings
                             )
+			  
+Automated ML Settings:
+| Name        | Description           | Value  |
+| ------------- |:-------------:| -----:|
+|experiment_timeout_minutes     | It defines how long experement will run | 20 |
+| primary_metric    | metric that Automated ML will optimize for model selection      |   accuracy |
+| max_concurrent_iterations | Represents the maximum number of iterations that would be executed in parallel. The default value is 1.|    8 |
+|max_cores_per_iteration     | The maximum number of threads to use for a given training iteration. Equal to -1, which means to use all the possible cores per iteration per child-run. | -1 |
+| enable_dnn    | Whether to include DNN based models during model selection.      |   True |
+| enable_early_stopping | Whether to enable early termination if the score is not improving in the short term.      |    True |
+| validation_size | What fraction of the data to hold out for validation when user validation data is not specified      |    0.3 |
+|verbosity     | The verbosity level for writing to the log file | logging.INFO |
+| enable_voting_ensemble    | Whether to enable/disable VotingEnsemble iteration      |   False |
+| enable_stack_ensemble | Whether to enable/disable StackEnsemble iteration.      |    False |
+
+
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
 
