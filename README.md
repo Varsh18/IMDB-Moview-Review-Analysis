@@ -43,7 +43,7 @@ After successful completion of project execution , webservice and the compute cl
 ## Dataset
 
 ### Overview
-*TODO*: Explain about the data you are using and where you got it from.
+The dataset used in this project is [IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) from [kaggle](https://www.kaggle.com/).This is a dataset for binary sentiment classification containing substantially more data than previous benchmark datasets.This dataset contains 50k movie reviews which 49582 unique values. The attributes in the dataset are review and sentiment. The attribute review contains the user review and sentiment attribute contains two values (positive , negative) corresponding to the user review.
 
 ### Task
 *TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
