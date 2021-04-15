@@ -123,8 +123,35 @@ Automated ML configuration:
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
 ## Hyperparameter Tuning
-*TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
+The scikit-learn pipeline consists of tuning the hyperparameter of a logistic regression binary classification model using HyperDrive.Logistic Regression is a Machine Learning classification algorithm that is used to predict the probability of a categorical dependent variable. In logistic regression, the dependent variable (y) is a binary variable.HyperDrive is a package that helps you automate choosing parameters.
 
+Main Steps for Tuning with HyperDrive:
+
+	1.Define the parameter search space. This could be a discrete/categorical variable (e.g., apple, banana, pair) or it can be a continuous value (e.g., a time series value).
+	2.Define the sampling method over the search space. This is a question of the method you want to use to find the values. For example, you can use a random, grid, or Bayesian search strategy.
+	3.Specify the primary metric to optimize. For example, the Area Under the Curve (AUC) is a common optimization metric.
+	4.Define an early termination policy. An early termination policy specifies that if you have a certain number of failures, HyperDrive will stop looking for the answer.
+
+   We start by setting up a training script "train.py". It contains dataset creation, train and evaluate Logistic regression
+model from Scikit learn.The dataset is tabular which is imported from a URL in the training script. Then , Compute cluster is created and configuring  the training run by creating a HyperDriveConfig and AutoMLConfig for comparison.After that , run is submitted and best model was saved and registered.
+
+Sampling the hyperparameter space
+ Azure Machine Learning supports the following methods to use over the hyperparameter space:
+
+	1.Random sampling
+	2.Grid sampling
+	3.Bayesian sampling
+
+This project uses Random sampling as parameter sampling.
+
+Bayesian sampling tries to intelligently pick the next sample of hyperparameters, based on how the previous samples performed, such that the new sample improves the reported primary metric.when using Bayesian sampling, the number of concurrent runs has an impact on the effectiveness of the tuning process. Typically, a smaller number of concurrent runs leads to better sampling convergence. That is because some runs start without fully benefiting from runs that are still running.
+
+	ps = BayesianParameterSampling ({
+	    "--C":choice(0.00001,0.0001,0.001,0.01,0.1,1,10,100,200,500,1000),
+	    "--max_iter":choice(50,100,200,300,500,1000)
+	})
+
+This will define a search space with two parameters, C and max_iter. The C can have a a choice of [0.00001,0.0001,0.001,0.01,0.1,1,10,100,200,500,1000] , and the max_iter will be a choice of [50,100,200,300,500,1000].
 
 ### Results
 *TODO*: What are the results you got with your model? What were the parameters of the model? How could you have improved it?
