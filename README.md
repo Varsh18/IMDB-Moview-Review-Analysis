@@ -26,7 +26,7 @@ The best performing model from the AutoML experiment and Hyperdrive was deployed
 
 The project was performed using the Microsoft Azure Machine Learning Studio that provides resources for training machine learning models.Below are the steps performed to train and deploy the model and consume it as a web service.
 
-Signin to [Azure Portal](https://portal.azure.com/).
+Sign in to [Azure Portal](https://portal.azure.com/).
 
 Search for Machine Learning Service and launch it
 
