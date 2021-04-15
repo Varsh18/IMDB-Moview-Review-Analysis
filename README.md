@@ -1,5 +1,6 @@
 # IMDB Movie Review Analysis
 
+## Summary
 In this project, I have used IMDB Movie review dataset. This dataset will be used for training the model using 
 1) an Automated ML 
 2) Hyperdrive.
