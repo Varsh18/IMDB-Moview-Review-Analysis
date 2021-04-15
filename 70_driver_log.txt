@@ -1,0 +1,33 @@
+2021/04/15 11:54:38 Attempt 1 of http call to http://10.0.0.13:16384/sendlogstoartifacts/info
+2021/04/15 11:54:38 Attempt 1 of http call to http://10.0.0.13:16384/sendlogstoartifacts/status
+[2021-04-15T11:54:39.207194] Entering context manager injector.
+[context_manager_injector.py] Command line Options: Namespace(inject=['ProjectPythonPath:context_managers.ProjectPythonPath', 'RunHistory:context_managers.RunHistory', 'TrackUserError:context_managers.TrackUserError'], invocation=['train.py', '--C', '0.01', '--max_iter', '1000'])
+Script type = None
+[2021-04-15T11:54:40.344147] Entering Run History Context Manager.
+[2021-04-15T11:54:40.966867] Current directory: /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-142761/azureml/hd_9ba1d0c7-660b-4c98-9949-ba2bdcff422b_23/mounts/workspaceblobstore/azureml/HD_9ba1d0c7-660b-4c98-9949-ba2bdcff422b_23
+[2021-04-15T11:54:40.967106] Preparing to call script [train.py] with arguments:['--C', '0.01', '--max_iter', '1000']
+[2021-04-15T11:54:40.967205] After variable expansion, calling script [train.py] with arguments:['--C', '0.01', '--max_iter', '1000']
+
+2021/04/15 11:54:43 Not exporting to RunHistory as the exporter is either stopped or there is no data.
+Stopped: false
+OriginalData: 1
+FilteredData: 0.
+[nltk_data] Downloading package stopwords to /root/nltk_data...
+[nltk_data]   Unzipping corpora/stopwords.zip.
+len test_data_list 1
+len test_data_list 0 4982
+/azureml-envs/azureml_b8f548ed4cb2cbfeccc3755646d35dba/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:433: FutureWarning: Default solver will be changed to 'lbfgs' in 0.22. Specify a solver to silence this warning.
+  FutureWarning)
+
+
+[2021-04-15T11:58:56.363479] The experiment completed successfully. Finalizing run...
+Cleaning up all outstanding Run operations, waiting 900.0 seconds
+2 items cleaning up...
+Cleanup took 0.4047882556915283 seconds
+[2021-04-15T11:58:56.971537] Finished context manager injector.
+2021/04/15 11:59:02 Attempt 1 of http call to http://10.0.0.13:16384/sendlogstoartifacts/status
+2021/04/15 11:59:02 Not exporting to RunHistory as the exporter is either stopped or there is no data.
+Stopped: false
+OriginalData: 2
+FilteredData: 0.
+2021/04/15 11:59:02 Process Exiting with Code:  0
