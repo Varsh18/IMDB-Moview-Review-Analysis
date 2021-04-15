@@ -133,7 +133,7 @@ Main Steps for Tuning with HyperDrive:
 	4.Define an early termination policy. An early termination policy specifies that if you have a certain number of failures, HyperDrive will stop looking for the answer.
 
    We start by setting up a training script "train.py". It contains dataset creation, train and evaluate Logistic regression
-model from Scikit learn.The dataset is tabular which is imported from a URL in the training script. Then , Compute cluster is created and configuring  the training run by creating a HyperDriveConfig and AutoMLConfig for comparison.After that , run is submitted and best model was saved and registered.
+model from Scikit learn.The dataset is tabular which is imported from a URL in the training script. Then by using python sdk, Compute cluster is created and configuring  the training run by creating a HyperDriveConfig and AutoMLConfig for comparison.After that ,run is submitted and best model was saved and registered.
 
 Sampling the hyperparameter space
  Azure Machine Learning supports the following methods to use over the hyperparameter space:
