@@ -6,6 +6,11 @@ In this project, I have used IMDB Movie review dataset. This dataset will be use
 
 After that ,we will compare their performance and deploy the best model from both Automated ML and hyperdrive using python SDK. Finally , deployed model is consumed via an HTTP API using model endpoint. An HTTP API is a URL that is exposed over the network so that interaction with a trained model can happen via HTTP requests.
 
+## Project Overview
+Sentiment analysis (or opinion mining) is a natural language processing technique used to determine whether data is positive, negative or neutral. Sentiment analysis is often performed on textual data to help businesses monitor brand and product sentiment in customer feedback, and understand customer needs.Sentiment analysis is extremely important because it helps businesses quickly understand the overall opinions of their customers. 
+
+This project was aimed at providing sentiment analysis (positive , negative) using [IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) from Kaggle.IMDB dataset having 50K movie reviews for natural language processing or Text analytics.This is a dataset for binary sentiment classification containing substantially more data than previous benchmark datasets. We provide a set of 25,000 highly polar movie reviews for training and 25,000 for testing. So, predict the number of positive and negative reviews using either classification or deep learning algorithms.
+
 ## Project Set Up and Installation
 *OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
 
