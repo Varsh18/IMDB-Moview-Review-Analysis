@@ -6,6 +6,9 @@ In this project, I have used IMDB Movie review dataset. This dataset will be use
 
 After that ,we will compare their performance and deploy the best model from both Automated ML and hyperdrive using python SDK. Finally , deployed model is consumed via an HTTP API using model endpoint. An HTTP API is a URL that is exposed over the network so that interaction with a trained model can happen via HTTP requests.
 
+## Microsoft Azure ML
+   The [Azure](https://ml.azure.com) Machine Learning service empowers developers and data scientists with a wide range of productive experiences for building, training, and deploying machine learning models faster. It also accelerates time to market and foster team collaboration with industry-leading MLOps—DevOps for machine learning.It Innovates on a secure, trusted platform, designed for responsible machine learning.
+   
 ## Project Overview
 Sentiment analysis (or opinion mining) is a natural language processing technique used to determine whether data is positive, negative or neutral. Sentiment analysis is often performed on textual data to help businesses monitor brand and product sentiment in customer feedback, and understand customer needs.Sentiment analysis is extremely important because it helps businesses quickly understand the overall opinions of their customers. 
 
