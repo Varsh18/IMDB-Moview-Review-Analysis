@@ -161,6 +161,13 @@ This will define a search space with two parameters, C and max_iter. The C can h
 ## Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 
+Deployment is about delivering a trained model into production so that it can be consumed by others.Configuring deployment settings means making choices on cluster settings and other types of interaction with a deployment.
+### ACI and AKS: 
+Both ACI and AKS are available in the Azure ML platform as deployment options for models.
+
+ACI is a container offering from Azure, which uses container technology to quickly deploy compute instances. The flexibility of ACI is reduced as to what AKS offers, but it is far simpler to use.For this project, I have used Azure Container Instanced to deploy the best model.
+
+AKS, on the other hand, is a Kubernetes offering. The Kubernetes service is a cluster that can expand and contract given on demand, and it does take more effort than the container instance to configure and setup.
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 - A working model
