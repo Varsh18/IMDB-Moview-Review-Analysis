@@ -22,8 +22,9 @@ from collections import Counter   # for getting freq of words
 ds_path="https://raw.githubusercontent.com/Varsh18/IMDB-Moview-Review-Analysis/master/IMDB-Dataset.csv"
 contractions_dict = contractions.contractions_dict
 
-!pip install contractions
-!pip install nltk
+
+# # !pip install contractions
+# # !pip install nltk
 def install_dependancies():
     nltk.download('stopwords')
 
