@@ -142,7 +142,7 @@ Sampling the hyperparameter space
 	2.Grid sampling
 	3.Bayesian sampling
 
-This project uses Random sampling as parameter sampling.
+This project uses Bayesian sampling as parameter sampling.
 
 Bayesian sampling tries to intelligently pick the next sample of hyperparameters, based on how the previous samples performed, such that the new sample improves the reported primary metric.when using Bayesian sampling, the number of concurrent runs has an impact on the effectiveness of the tuning process. Typically, a smaller number of concurrent runs leads to better sampling convergence. That is because some runs start without fully benefiting from runs that are still running.
 
