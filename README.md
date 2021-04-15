@@ -49,16 +49,16 @@ The dataset used in this project is [IMDB Dataset of 50K Movie Reviews](https://
 The main idea of this project is analyse the binary sentiments for the IMDB Movie review. The features in the dataset are review column which has the user reviews.Text preprocesing is challenging one. Based on the goal of the project, we need to remove the unwanted information from the data.Machine Learning can produce more accurate results when we process the text data properly.
 Below are the steps used in preprocessing the text data.
 
-Remove HTML tags
-Remove extra whitespaces
-Convert accented characters to ASCII characters
-Expand contractions
-Remove special characters
-Lowercase all texts
-Convert number words to numeric form
-Remove numbers
-Remove stopwords
-Lemmatization
+1. Remove HTML tags
+2. Remove extra whitespaces
+3. Convert accented characters to ASCII characters
+4. Expand contractions
+5. Remove special characters
+6. Lowercase all texts
+7. Lemmatization 
+8. Remove numbers
+9. Remove stopwords
+10. Convert words to numeric form
 
 ### Access
 *TODO*: Explain how you are accessing the data in your workspace.
