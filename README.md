@@ -23,7 +23,22 @@ deploy models faster.
 The best performing model from the AutoML experiment and Hyperdrive was deployed as a webservice using Azure Container Instance (ACI).HTTP post requests were sent to test the Model Endpoints.
 
 ## Project Set Up and Installation
-*OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
+
+The project was performed using the Microsoft Azure Machine Learning Studio that provides resources for training machine learning models.Below are the steps performed to train and deploy the model and consume it as a web service.
+
+Signin to [Azure Portal](https://portal.azure.com/).
+
+Search for Machine Learning Service and launch it
+
+In Azure ML dashboard, navigate to Cluster > Create a Compute cluster. This cluster is used for executing Jupyter notebooks.
+
+In the Notebook section, upload the necessary files needed for the project(hyperparameter_tuning.ipynb, automl.ipynb, train.py and score.py).
+
+hyperparameter_tuning.ipynb file contains the code to perform model training using Hyperdrive and deploy the best model as a webservice. Finally , the deployed service is consumed throught HTTP requests and the response is recorded.
+
+automl.ipynb file contains the code to perform model training using AutoML with Deep Learning and deploy the best trained model as a webservice. Finally ,the deployed service is consumed throught HTTP requests and the response is recorded.
+
+After successful completion of project execution , webservice and the compute cluster is deleted.
 
 ## Dataset
 
