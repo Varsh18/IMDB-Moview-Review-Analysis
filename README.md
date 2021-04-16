@@ -170,6 +170,18 @@ Bayesian sampling tries to intelligently pick the next sample of hyperparameters
 
 This will define a search space with two parameters, C and max_iter. The C can have a a choice of [0.00001,0.0001,0.001,0.01,0.1,1,10,100,200,500,1000] , and the max_iter will be a choice of [50,100,200,300,500,1000].
 
+![experiment running](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/exp_running_jupyter1.png)
+
+![experiment completed_azure](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/exp_completed_azure.png)
+
+![Run completed](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/rundetails2.png)
+
+![Hyperdrive run details](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/rundetails1.png)
+
+![Run details](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/rundetails3.png)
+
+![Run properties](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/rundetails4.png)
+
 ### Results
 The highest accuracy of the Logistic Regression Model acheived was 0.8878.The best run metrics for this model are:
 Best Run Metrics: {'Regularization Strength:': 0.01, 'Max iterations:': 1000, 'Accuracy': 0.8878}
