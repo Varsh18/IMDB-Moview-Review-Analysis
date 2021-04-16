@@ -206,8 +206,16 @@ AKS, on the other hand, is a Kubernetes offering. The Kubernetes service is a cl
 To gain knowledge about both Hyperdrive and AutoML deployed ,I have deployed best runs from both AutoML and hyperdrive and consumed the model endpoints.
 
 
-## Hyperdrive Deployement
+## Hyperdrive Deployment
 The best run model is saved and registered.For deploying hyperdrive model, we need to write environment file and scoring file. By using environment file and deployment details , I have deployed the hyperdrive best model is Azure Container Instance as it is simple and easier to deploy.
+
+![Deploying hyperdrive](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/deploy_jupyter.png)
+
+![Deploy completed](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/deploy_jupyter_completed.png)
+
+![Deploy completed](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/deploy_completed_azure.png)
+
+![Endpoint consume](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/endpoint_consume.png)
 
 ## Automated ML Deployment
 Firstly ,the best model is saved and registered.The best run contains environment and scoring file.With the help of that, we can deploy the best model.I have used Azure Container Instance.ACI has more flexible benefits than Azure Kubernates Services. I have enabled logging before deploying the model
