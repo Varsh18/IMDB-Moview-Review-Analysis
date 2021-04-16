@@ -128,6 +128,10 @@ Automated ML configuration:
 ### Results
 The best model got from Automated ML is  StandardScalerWrapper LogisticRegression with accuracy of 0.8370
 
+### Future Work
+1. To do more preprocessing and compare the results
+2. Increasing the experiment timeout
+
 ![Best Run details Jupyter](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/best_model_jupyter.png)
 
 ![Auto ML Best Run Details](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/best_run_azure.png)
