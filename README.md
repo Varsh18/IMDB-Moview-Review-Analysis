@@ -130,7 +130,7 @@ The best model got from Automated ML is  StandardScalerWrapper LogisticRegressio
 
 ### Future Work
 1. To do more preprocessing and compare the results
-2. Increasing the experiment timeout
+2. Increasing the experiment timeout to improve the primary metric i.e., Accuracy
 
 ![Best Run details Jupyter](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/best_model_jupyter.png)
 
