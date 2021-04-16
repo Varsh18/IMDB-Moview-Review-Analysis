@@ -119,10 +119,21 @@ Automated ML configuration:
 |label_column_name     | The name of the label column | sentiment |
 | blocked_models    | A list of algorithms to ignore for an experiment.      |   'LightGBM', 'XGBoostClassifier' |
 
-### Results
-*TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
+![AutoML Run submitted](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/run_submitted_jupyter1.png)
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+![AutoML run details](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/run_completed_jupyter1.png)
+
+![AutoML run details](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/run_completed_jupyter2.png)
+
+### Results
+The best model got from Automated ML is  StandardScalerWrapper LogisticRegression with accuracy of 0.8370
+
+![Best Run details Jupyter](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/best_model_jupyter.png)
+
+![Auto ML Best Run Details](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/best_run_azure.png)
+
+![Best Run properties](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/best_run_properties.png)
+
 
 ## Hyperparameter Tuning
 The scikit-learn pipeline consists of tuning the hyperparameter of a logistic regression binary classification model using HyperDrive.Logistic Regression is a Machine Learning classification algorithm that is used to predict the probability of a categorical dependent variable. In logistic regression, the dependent variable (y) is a binary variable.HyperDrive is a package that helps you automate choosing parameters.
