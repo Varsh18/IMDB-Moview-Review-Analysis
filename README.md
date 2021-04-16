@@ -169,10 +169,7 @@ ACI is a container offering from Azure, which uses container technology to quick
 
 AKS, on the other hand, is a Kubernetes offering. The Kubernetes service is a cluster that can expand and contract given on demand, and it does take more effort than the container instance to configure and setup.
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-- A working model
-- Demo of the deployed  model
-- Demo of a sample request sent to the endpoint and its response
+Click [here](https://drive.google.com/file/d/1VRmS_4KrbmPj_pBOKeGoYvKderx0lxeq/view?usp=sharing) to view the detailed implementation
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
