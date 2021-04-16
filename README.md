@@ -32,6 +32,8 @@ Search for Machine Learning Service and launch it
 
 In Azure ML dashboard, navigate to Cluster > Create a Compute cluster. This cluster is used for executing Jupyter notebooks.
 
+![Compute instance](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/compute_instance.png)
+
 In the Notebook section, upload the necessary files needed for the project(hyperparameter_tuning.ipynb, automl.ipynb, train.py and score.py).
 
 hyperparameter_tuning.ipynb file contains the code to perform model training using Hyperdrive and deploy the best model as a webservice. Finally , the deployed service is consumed throught HTTP requests and the response is recorded.
