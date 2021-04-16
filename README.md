@@ -209,6 +209,8 @@ To gain knowledge about both Hyperdrive and AutoML deployed ,I have deployed bes
 ## Hyperdrive Deployment
 The best run model is saved and registered.For deploying hyperdrive model, we need to write environment file and scoring file. By using environment file and deployment details , I have deployed the hyperdrive best model is Azure Container Instance as it is simple and easier to deploy.
 
+![Model register](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/model_register.png)
+
 ![Deploying hyperdrive](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/deploy_jupyter.png)
 
 ![Deploy completed](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/deploy_jupyter_completed.png)
