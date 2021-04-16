@@ -186,6 +186,9 @@ This will define a search space with two parameters, C and max_iter. The C can h
 The highest accuracy of the Logistic Regression Model acheived was 0.8878.The best run metrics for this model are:
 Best Run Metrics: {'Regularization Strength:': 0.01, 'Max iterations:': 1000, 'Accuracy': 0.8878}
 
+![Best run details](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/exp_running_jupyter4.png)
+
+![Best run details azure](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/bestmodel_azure.png)
 ### Future Work
 1. Need to try different parameter sampling with early termination policy and compare the results.
 2. Convert the best model to ONNX Format.
