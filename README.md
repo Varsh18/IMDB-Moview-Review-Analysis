@@ -171,9 +171,13 @@ Bayesian sampling tries to intelligently pick the next sample of hyperparameters
 This will define a search space with two parameters, C and max_iter. The C can have a a choice of [0.00001,0.0001,0.001,0.01,0.1,1,10,100,200,500,1000] , and the max_iter will be a choice of [50,100,200,300,500,1000].
 
 ### Results
-*TODO*: What are the results you got with your model? What were the parameters of the model? How could you have improved it?
+The highest accuracy of the Logistic Regression Model acheived was 0.8878.The best run metrics for this model are:
+Best Run Metrics: {'Regularization Strength:': 0.01, 'Max iterations:': 1000, 'Accuracy': 0.8878}
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+### Future Work
+1. Need to try different parameter sampling with early termination policy and compare the results.
+2. Convert the best model to ONNX Format.
+3. Increase the maximum total run count by different hyperparameters and check the results
 
 ## Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
