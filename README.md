@@ -195,8 +195,6 @@ Best Run Metrics: {'Regularization Strength:': 0.01, 'Max iterations:': 1000, 'A
 3. Increase the maximum total run count by different hyperparameters and check the results
 
 ## Model Deployment
-*TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
-
 Deployment is about delivering a trained model into production so that it can be consumed by others.Configuring deployment settings means making choices on cluster settings and other types of interaction with a deployment.
 ### ACI and AKS: 
 Both ACI and AKS are available in the Azure ML platform as deployment options for models.
@@ -204,5 +202,15 @@ Both ACI and AKS are available in the Azure ML platform as deployment options fo
 ACI is a container offering from Azure, which uses container technology to quickly deploy compute instances. The flexibility of ACI is reduced as to what AKS offers, but it is far simpler to use.For this project, I have used Azure Container Instanced to deploy the best model.
 
 AKS, on the other hand, is a Kubernetes offering. The Kubernetes service is a cluster that can expand and contract given on demand, and it does take more effort than the container instance to configure and setup.
+
+To gain knowledge about both Hyperdrive and AutoML deployed ,I have deployed best runs from both AutoML and hyperdrive and consumed the model endpoints.
+
+
+## Hyperdrive Deployement
+The best run model is saved and registered.For deploying hyperdrive model, we need to write environment file and scoring file. By using environment file and deployment details , I have deployed the hyperdrive best model is Azure Container Instance as it is simple and easier to deploy.
+
+## Automated ML Deployment
+Firstly ,the best model is saved and registered.The best run contains environment and scoring file.With the help of that, we can deploy the best model.I have used Azure Container Instance.ACI has more flexible benefits than Azure Kubernates Services. I have enabled logging before deploying the model
+
 ## Screen Recording
 Click [here](https://drive.google.com/file/d/1VRmS_4KrbmPj_pBOKeGoYvKderx0lxeq/view?usp=sharing) to view the detailed implementation
