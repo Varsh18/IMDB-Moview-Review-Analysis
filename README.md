@@ -220,5 +220,16 @@ The best run model is saved and registered.For deploying hyperdrive model, we ne
 ## Automated ML Deployment
 Firstly ,the best model is saved and registered.The best run contains environment and scoring file.With the help of that, we can deploy the best model.I have used Azure Container Instance.ACI has more flexible benefits than Azure Kubernates Services. I have enabled logging before deploying the model
 
+![Model Register](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/register_model.png)
+
+![Deploy started](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/deploy_started_azaure.png)
+
+![Deploy completed](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/deploy_completed_azure.png)
+
+![Application Insights](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/application_insights.png)
+
+![Model endpoint](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/request_endpoint.png)
+
+
 ## Screen Recording
 Click [here](https://drive.google.com/file/d/1VRmS_4KrbmPj_pBOKeGoYvKderx0lxeq/view?usp=sharing) to view the detailed implementation
