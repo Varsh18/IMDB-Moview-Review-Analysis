@@ -177,6 +177,7 @@ This will define a search space with two parameters, C and max_iter. The C can h
 
 ![experiment running](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/exp_running_jupyter1.png)
 
+Hyperdrive experiment details in Azure ML portal
 ![experiment completed_azure](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/exp_completed_azure.png)
 
 ![Run completed](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/rundetails2.png)
@@ -193,6 +194,7 @@ Best Run Metrics: {'Regularization Strength:': 0.01, 'Max iterations:': 1000, 'A
 
 ![Best run details](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/exp_running_jupyter4.png)
 
+Best hyperdrive run details in Azure ML portal
 ![Best run details azure](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/bestmodel_azure.png)
 ### Future Work
 1. Need to try different parameter sampling with early termination policy and compare the results.
@@ -208,7 +210,7 @@ ACI is a container offering from Azure, which uses container technology to quick
 
 AKS, on the other hand, is a Kubernetes offering. The Kubernetes service is a cluster that can expand and contract given on demand, and it does take more effort than the container instance to configure and setup.
 
-To gain knowledge about both Hyperdrive and AutoML deployed ,I have deployed best runs from both AutoML and hyperdrive and consumed the model endpoints.
+To gain knowledge about both Hyperdrive and AutoML deployment ,I have deployed best runs from both AutoML and hyperdrive and consumed the model endpoints.
 
 
 ## Hyperdrive Deployment
