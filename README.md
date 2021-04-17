@@ -234,14 +234,19 @@ Below screenshot explains the model endpoint being consumed using HTTP request. 
 ## Automated ML Deployment
 Firstly ,the best model is saved and registered.The best run contains environment and scoring file.With the help of that, we can deploy the best model.I have used Azure Container Instance.ACI has more flexible benefits than Azure Kubernates Services. I have enabled logging before deploying the model
 
+Below screenshot shows the best automl model saved and registered
 ![Model Register](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/register_model.png)
 
+This screenshot explains the best model being deployed in Azure portal
 ![Deploy started](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/deploy_started_azaure.png)
 
+Below screenshot showing the deployment is completed with the status Healthy. The application insights is enabled to true and REST endpoint url is generated.
 ![Deploy completed](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/deploy_completed_azure.png)
 
+Application Insights details
 ![Application Insights](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/application_insights.png)
 
+This screenshot shows the model endpoint consumed using HTTP request. I have taken the test data from dataframe and stored in a json. This JSON data is sent to the webservice using HTTP POST request and response is shown. The response status is [200] and automl model predicted the test data with good accuracy.
 ![Model endpoint](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/request_endpoint.png)
 
 
