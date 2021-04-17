@@ -216,14 +216,19 @@ To gain knowledge about both Hyperdrive and AutoML deployment ,I have deployed b
 ## Hyperdrive Deployment
 The best run model is saved and registered.For deploying hyperdrive model, we need to write environment file and scoring file. By using environment file and deployment details , I have deployed the hyperdrive best model is Azure Container Instance as it is simple and easier to deploy.
 
+Screenshot showing the best model being registered with the name bestmodel.pkl
 ![Model register](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/model_register.png)
 
+This screenshot explains the best model deployment using ACI.With the environment file, deployment details and inference configuration , it is deployed using AciWebService
 ![Deploying hyperdrive](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/deploy_jupyter.png)
 
+Screenshot showing the deployment is completed with the status Healthy
 ![Deploy completed](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/deploy_jupyter_completed.png)
 
+The deployment details of Azure ML portal can be seen below
 ![Deploy completed](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/deploy_completed_azure.png)
 
+Below screenshot explains the model endpoint being consumed using HTTP request. I have stored the test data in a text file. The input data is taken from the text file and stored in json. The JSON data is sent to the webservice using POST method and we could able to see the response status [200] and data being predicted as Positive.
 ![Endpoint consume](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/endpoint_consume.png)
 
 ## Automated ML Deployment
