@@ -225,7 +225,7 @@ This screenshot explains the best model deployment using ACI.With the environmen
 Screenshot showing the deployment is completed with the status Healthy
 ![Deploy completed](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/deploy_jupyter_completed.png)
 
-The deployment details of Azure ML portal can be seen below
+The deployment details in Azure ML portal can be seen below
 ![Deploy completed](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/hyperdrive/deploy_completed_azure.png)
 
 Below screenshot explains the model endpoint being consumed using HTTP request. I have stored the test data in a text file. The input data is taken from the text file and stored in json. The JSON data is sent to the webservice using POST method and we could able to see the response status [200] and data being predicted as Positive.
