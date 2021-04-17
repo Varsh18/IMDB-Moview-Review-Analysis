@@ -137,7 +137,7 @@ The best model got from Automated ML is  StandardScalerWrapper LogisticRegressio
 Screenshot showing thr best Automated ML model details in Jupyter notebook
 ![Best Run details Jupyter](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/best_model_jupyter.png)
 
-Best run details in Azure ML portal
+Automated ML Experiment details in Azure ML portal
 ![Auto ML Best Run Details](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/best_run_azure.png)
 
 Below screenshot gives detail about best run properties in Jupyter notebook
