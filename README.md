@@ -119,8 +119,10 @@ Automated ML configuration:
 |label_column_name     | The name of the label column | sentiment |
 | blocked_models    | A list of algorithms to ignore for an experiment.      |   'LightGBM', 'XGBoostClassifier' |
 
+Below screenshot depicts the experiment being submitted for run.
 ![AutoML Run submitted](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/run_submitted_jupyter1.png)
 
+The Automated ML experiment is completed and summary of the run details are shown here
 ![AutoML run details](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/run_completed_jupyter1.png)
 
 ![AutoML run details](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/run_completed_jupyter2.png)
@@ -132,10 +134,13 @@ The best model got from Automated ML is  StandardScalerWrapper LogisticRegressio
 1. To do more preprocessing and compare the results
 2. Increasing the experiment timeout to improve the primary metric i.e., Accuracy
 
+Screenshot showing thr best Automated ML model details in Jupyter notebook
 ![Best Run details Jupyter](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/best_model_jupyter.png)
 
+Best run details in Azure ML portal
 ![Auto ML Best Run Details](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/best_run_azure.png)
 
+Below screenshot gives detail about best run properties in Jupyter notebook
 ![Best Run properties](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/best_run_properties.png)
 
 
