@@ -134,7 +134,7 @@ The best model got from Automated ML is  StandardScalerWrapper LogisticRegressio
 1. To do more preprocessing and compare the results
 2. Increasing the experiment timeout to improve the primary metric i.e., Accuracy
 
-Screenshot showing thr best Automated ML model details in Jupyter notebook
+Screenshot showing the best Automated ML model details in Jupyter notebook
 ![Best Run details Jupyter](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/best_model_jupyter.png)
 
 Automated ML Experiment details in Azure ML portal
