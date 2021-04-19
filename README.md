@@ -248,7 +248,3 @@ Application Insights details
 
 This screenshot shows the model endpoint consumed using HTTP request. I have taken the test data from dataframe and stored in a json. This JSON data is sent to the webservice using HTTP POST request and response is shown. The response status is [200] and automl model predicted the test data with good accuracy.
 ![Model endpoint](https://github.com/Varsh18/IMDB-Moview-Review-Analysis/blob/master/images/automl/request_endpoint.png)
-
-
-## Screen Recording
-Click [here](https://1drv.ms/v/s!AsxbSUl4J1uQjkh2UHZck82einJw) to view the detailed implementation
